@@ -6456,7 +6456,7 @@ void do_loadarea( CHAR_DATA *ch, char *argument )
     {
 	tmp = tarea->nplayer;
 	tarea->nplayer = 0;
-	send_to_char( "Resetting area...\n\r", ch );
+	//send_to_char( "Resetting area...\n\r", ch ); // prool
 	reset_area( tarea );
 	tarea->nplayer = tmp;
     }
@@ -6601,7 +6601,7 @@ void do_installarea( CHAR_DATA *ch, char *argument )
 	  top_area++;
 	  send_to_char( "Writing area.lst...\n\r", ch );
 	  write_area_list( );
-	  send_to_char( "Resetting new area.\n\r", ch );
+	  //send_to_char( "Resetting new area.\n\r", ch ); // prool
 	  num = tarea->nplayer;
 	  tarea->nplayer = 0;
 	  reset_area( tarea );

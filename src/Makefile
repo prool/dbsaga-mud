@@ -32,7 +32,7 @@ NEED_REG = -lgnuregex
 #Comment it out it if you are compiling with Cygwin
 OPT_FLAG = -DMCCP
 
-C_FLAGS = $(OPT_FLAG) -O -g3 -Wall -Wuninitialized $(PROF) $(NOCRYPT) $(DBUGFLG) -DSMAUG $(SOLARIS_FLAG) $(TIME) $(REG)
+C_FLAGS = $(OPT_FLAG) -O -g3 -Wall -Wuninitialized $(PROF) $(NOCRYPT) $(DBUGFLG) -DSMAUG $(SOLARIS_FLAG) $(TIME) $(REG) -fcommon
 L_FLAGS = $(OPT_FLAG) $(PROF) $(SOLARIS_LINK) $(NEED_CRYPT) ${MATH_LINK} -lz
 
 #D_FLAGS : For the DNS Slave process. No need in linking all the extra libs for this.
