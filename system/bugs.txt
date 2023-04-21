@@ -1,0 +1,6 @@
+
+[*****] BUG: Cannot open alliance list for reading
+[*****] BUG: Fread_accessories: Accessory doesn't exist
+[*****] BUG: Fread_accessories: Accessory doesn't exist
+[*****] BUG: Fread_accessories: Accessory doesn't exist
+[*****] BUG: NULL ROOM: echo_to_room() The turbocar doors close and it speeds out of the station.
